@@ -2,8 +2,10 @@
 <!DOCTYPE html>
 <html>
 <head>
+
 <link rel="stylesheet" type="text/css" href="Parallax.css">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8">
+
 <style>
 body, html {
     height: 100%;
@@ -22,25 +24,35 @@ body, html {
     background-size: cover;
 }
 
-/* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
-@media only screen and (max-device-width: 1366px) {
-    .parallax {
-        background-attachment: scroll;
-    }
+.parallax2 {
+    /* The image used */
+    background-image: url('https://d1u5p3l4wpay3k.cloudfront.net/enterthegungeon_gamepedia/d/de/SS_4.png');
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
 </style>
 </head>
 <body>
 
-<p >Este juego es brutal, es lo mas parecido a las máquinas arcade antíguas aunque con una profundidad mucho mayor, cientos de armas, cientos de items y miles de sinergías.</p>
+<p >Este juego es brutal, es lo mas parecido a las máquinas arcade antiguas aunque con una profundidad mucho mayor, cientos de armas, cientos de items y miles de sinergías.</p>
 
 
 <div class="parallax"></div>
 
 <div style="height:1000px;background-color:red;font-size:36px">
-This div is just here to enable scrolling.
-Tip: Try to remove the background-attachment property to remove the scrolling effect.
+Enter The Gungeon es un videojuego indie matamarcianos con elementos roguelike desarrollado por el estudio independiente Dodge Roll y publicado por Devolver Digital. Sigue la historia de unos aventureros que descienden a la Gungeon (Armazmorra, en su traducción al español) en búsqueda de un arma que puede matar el pasado. El juego fue lanzado de manera mundial en las plataformas Microsoft Windows, OS X, Linux y Playstation 4 el 5 de abril de 2016, su lanzamiento en la Xbox One fue el 5 de abril de 2017 y su lanzamiento en Nintendo Switch fue el 18 de diciembre de 2017
 </div>
+
+<div class="parallax2"></div>
+
+
 
 <div class="parallax"></div>
 
